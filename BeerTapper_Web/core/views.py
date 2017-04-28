@@ -4,8 +4,11 @@ from django.http import HttpResponse
 
 # Create your views here.
 
+def base(request):
+    return HttpResponse("HOME")
+
 def core(request):
-    return HttpResponse("Hello, world.")
+    return HttpResponse("Hello, world. APP")
 
 def detail(request, question_id):
     return HttpResponse("You're looking at question %s." % question_id)
