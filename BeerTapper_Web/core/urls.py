@@ -10,6 +10,7 @@ from . import views
 urlpatterns = [
     url(r'^$', views.base, name='base'),
     url(r'^core/$', views.core, name='core'),
+    url(r'^index/$', views.index, name='index'),
     # ex: /polls/5/
     url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
     # ex: /polls/5/results/
