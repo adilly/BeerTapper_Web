@@ -6,7 +6,7 @@ from django.shortcuts import render
 
 def base(request):
     return render(request, "home.html")
-
+    
 def core(request):
     return HttpResponse("Hello, world. APP")
 
