@@ -1,6 +1,11 @@
 body {
   background-color: blue;
+  
 }
 h1 {
-  color: red
+  color: red;
+  text-align: right;
+}
+div.core{
+  column-count: 3;
 }
